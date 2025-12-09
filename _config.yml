@@ -100,12 +100,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://strive-for-progress:ffd14556278f0c7e69407aeb3ff71421@gitee.com/strive-for-progress/768910-bit.git
+  repo: 
+      gitee: https://github.com/768910-bit/768910-bit.github.io.git 
   branch: master
   message: "最后闪现时间: {{ now('YYYY-MM-DD HH:mm:ss') }}"
